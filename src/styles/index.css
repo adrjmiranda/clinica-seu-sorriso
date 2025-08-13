@@ -42,4 +42,8 @@
 	.horizontal-wrapper {
 		@apply mx-auto max-w-7xl px-1;
 	}
+
+	.default-gradient {
+		@apply from-sky to-tutti bg-linear-to-r;
+	}
 }

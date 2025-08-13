@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+@import './fonts/Ubuntu.css'; /* 300 400 500 700 */
+@import './fonts/Roboto.css'; /* 100 200 300 400 500 600 700 800 900 */
+
+@theme {
+	--color-deep: #12151f;
+	--color-dark: #222222;
+	--color-sky: #004eff;
+	--color-tutti: #00c3ff;
+	--color-light: #f1f1f1;
+	--color-coconut: #f9f9fd;
+
+	--font-title: 'Ubuntu', sans-serif;
+	--font-general: 'Roboto', sans-serif;
+}
+
+@layer base {
+	* {
+		@apply font-general;
+	}
+
+	body {
+		@apply overflow-x-hidden scroll-smooth;
+	}
+
+	:is(h1, h2, h3, h4, h5, h6) {
+		@apply font-title font-bold;
+	}
+
+	select,
+	button {
+		@apply cursor-pointer;
+	}
+}
+
+@layer components {
+	.vertical-wrapper {
+		@apply py-30;
+	}
+
+	.horizontal-wrapper {
+		@apply mx-auto max-w-7xl px-1;
+	}
+}

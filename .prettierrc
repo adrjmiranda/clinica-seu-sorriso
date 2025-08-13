@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+	"singleAttributePerLine": true,
+	"useTabs": true,
+	"vueIndentScriptAndStyle": true,
+	"plugins": ["prettier-plugin-tailwindcss"]
+}

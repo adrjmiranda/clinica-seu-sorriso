@@ -1,10 +1,6 @@
 import { BsGeoFill } from 'react-icons/bs';
-import {
-	FaFacebookF,
-	FaInstagram,
-	FaLinkedinIn,
-	FaTwitter,
-} from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { MdMail, MdPhone } from 'react-icons/md';
 
 export default function Topbar() {
@@ -57,7 +53,7 @@ export default function Topbar() {
 						rel="noopener noreferrer"
 						className="hover:text-tutti"
 					>
-						<FaTwitter />
+						<FaXTwitter />
 					</a>
 				</div>
 			</div>

@@ -1,3 +1,8 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+
 @import 'tailwindcss';
 
 @import './fonts/Cookie.css'; /* 400 */
@@ -47,7 +52,7 @@
 
 @layer components {
 	.vertical-wrapper {
-		@apply py-30;
+		@apply py-25;
 	}
 
 	.horizontal-wrapper {
@@ -57,4 +62,12 @@
 	.btn {
 		@apply from-sky to-tutti w-full rounded-sm bg-linear-to-r px-6 py-3 text-center text-sm font-medium text-white uppercase transition-all hover:brightness-110 sm:w-fit;
 	}
+}
+
+.swiper {
+	@apply py-20;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	@apply bg-sky;
 }

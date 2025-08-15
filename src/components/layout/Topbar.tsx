@@ -11,7 +11,7 @@ export default function Topbar() {
 	return (
 		<div className="relative z-10 hidden h-12 w-full items-center bg-white/70 text-gray-600 md:flex">
 			<div className="horizontal-wrapper flex w-full justify-between">
-				<address className="flex items-center gap-4">
+				<address className="flex items-center gap-4 text-sm uppercase">
 					<p className="flex items-center gap-1">
 						<MdPhone />
 						<span>Fale conosco +55 73 3525-6518</span>

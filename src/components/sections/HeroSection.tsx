@@ -52,7 +52,7 @@ export default function HeroSection() {
 						cuidado humano para transformar a saúde e a beleza do seu sorriso.
 					</h2>
 					<a
-						href="#contato"
+						href="#"
 						className="btn"
 					>
 						Marcar consulta

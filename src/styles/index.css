@@ -20,8 +20,12 @@
 		@apply font-general;
 	}
 
+	html {
+		@apply scroll-smooth;
+	}
+
 	body {
-		@apply overflow-x-hidden scroll-smooth bg-white;
+		@apply text-deep overflow-x-hidden bg-white;
 	}
 
 	:is(h1, h2, h3, h4, h5, h6) {
@@ -31,6 +35,11 @@
 	select,
 	button {
 		@apply cursor-pointer;
+	}
+
+	button,
+	a {
+		@apply transition-colors duration-300 ease-in-out;
 	}
 }
 

@@ -12,7 +12,10 @@ import ServicesSection from '@/components/sections/ServicesSection';
 
 export default function App() {
 	return (
-		<div className="relative">
+		<div
+			className="relative"
+			id="home"
+		>
 			<Topbar />
 			<Navbar />
 

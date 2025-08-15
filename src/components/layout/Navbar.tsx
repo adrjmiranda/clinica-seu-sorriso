@@ -22,26 +22,27 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`${isScrolling ? 'bg-white' : 'bg-transparent'} sticky inset-0 flex h-20 items-center transition-colors duration-300 ease-in-out`}
+			className={`${isScrolling ? 'bg-white' : 'bg-transparent'} sticky inset-0 z-20 flex h-20 items-center transition-colors duration-300 ease-in-out`}
 		>
 			<div className="horizontal-wrapper flex w-full justify-between">
 				<Logo />
 
 				<button
 					type="button"
-					className="text-tutti hover:text-sky flex items-center justify-center text-4xl md:hidden"
+					className="text-sky items-center justify-center text-4xl md:hidden"
 					onClick={() => setMenuIsActive((previous) => !previous)}
 				>
 					{menuIsActive ? <MdOutlineClose /> : <IoMenu />}
 				</button>
 
 				<ul
-					className={`${menuIsActive ? 'top-20' : '-top-96 bg-transparent'} absolute flex w-[calc(100vw---spacing(2))] flex-col items-center gap-3 rounded-sm bg-white py-4 text-sm font-medium uppercase transition-all duration-500 ease-in-out md:relative md:top-0 md:w-auto md:flex-row md:gap-6 md:bg-transparent md:py-0`}
+					className={`${menuIsActive ? 'top-20 opacity-100' : '-top-96 opacity-0'} absolute flex w-[calc(100vw---spacing(4))] flex-col items-center gap-3 rounded-sm bg-white/80 py-4 text-sm font-normal uppercase transition-all duration-500 ease-in-out md:relative md:top-0 md:w-auto md:flex-row md:gap-6 md:bg-transparent md:py-0 md:opacity-100`}
 				>
 					<li>
 						<a
 							href="#home"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Home
 						</a>
@@ -50,7 +51,8 @@ export default function Navbar() {
 					<li>
 						<a
 							href="#servicos"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Serviços
 						</a>
@@ -59,7 +61,8 @@ export default function Navbar() {
 					<li>
 						<a
 							href="#sobre"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Sobre
 						</a>
@@ -68,7 +71,8 @@ export default function Navbar() {
 					<li>
 						<a
 							href="#departamentos"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Departamentos
 						</a>
@@ -77,7 +81,8 @@ export default function Navbar() {
 					<li>
 						<a
 							href="#contato"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Contato
 						</a>
@@ -86,7 +91,8 @@ export default function Navbar() {
 					<li>
 						<a
 							href="#nosso-time"
-							className="hover:text-tutti"
+							className="hover:text-sky"
+							onClick={() => setMenuIsActive((previous) => !previous)}
 						>
 							Nosso time
 						</a>

@@ -4,14 +4,17 @@ export default function Logo() {
 	return (
 		<a
 			href="/"
-			className="flex items-center gap-2"
+			className="flex flex-nowrap items-center justify-start gap-2"
 		>
 			<img
 				src={LogoImg}
 				alt="Logo"
-				className="h-6"
+				className="mb-1 h-6"
 			/>
-			<span className="font-title text-2xl font-medium">Seu Sorriso</span>
+			<span className="text-4xl font-medium text-nowrap">
+				<span className="text-tutti font-special">Seu</span>{' '}
+				<span className="text-sky font-special">Sorriso</span>
+			</span>
 		</a>
 	);
 }

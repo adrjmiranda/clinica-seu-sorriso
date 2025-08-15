@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 
+@import './fonts/Cookie.css'; /* 400 */
 @import './fonts/Ubuntu.css'; /* 300 400 500 700 */
 @import './fonts/Roboto.css'; /* 100 200 300 400 500 600 700 800 900 */
 
@@ -11,6 +12,7 @@
 	--color-light: #f1f1f1;
 	--color-coconut: #f9f9fd;
 
+	--font-special: 'Cookie', cursive;
 	--font-title: 'Ubuntu', sans-serif;
 	--font-general: 'Roboto', sans-serif;
 }
@@ -49,10 +51,10 @@
 	}
 
 	.horizontal-wrapper {
-		@apply mx-auto max-w-7xl px-1;
+		@apply mx-auto max-w-7xl px-2;
 	}
 
-	.default-gradient {
-		@apply from-sky to-tutti bg-linear-to-r;
+	.btn {
+		@apply from-sky to-tutti w-fit rounded-sm bg-linear-to-r px-6 py-3 text-center text-sm font-medium text-white uppercase transition-all hover:brightness-110;
 	}
 }

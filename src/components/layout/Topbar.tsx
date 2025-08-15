@@ -9,7 +9,7 @@ import { MdMail, MdPhone } from 'react-icons/md';
 
 export default function Topbar() {
 	return (
-		<div className="hidden h-12 w-full items-center bg-white/70 text-gray-600 md:flex">
+		<div className="relative z-10 hidden h-12 w-full items-center bg-white/70 text-gray-600 md:flex">
 			<div className="horizontal-wrapper flex w-full justify-between">
 				<address className="flex items-center gap-4">
 					<p className="flex items-center gap-1">
@@ -31,7 +31,7 @@ export default function Topbar() {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="hover:text-sky"
+						className="hover:text-tutti"
 					>
 						<FaFacebookF />
 					</a>
@@ -39,7 +39,7 @@ export default function Topbar() {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="hover:text-sky"
+						className="hover:text-tutti"
 					>
 						<FaLinkedinIn />
 					</a>
@@ -47,7 +47,7 @@ export default function Topbar() {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="hover:text-sky"
+						className="hover:text-tutti"
 					>
 						<FaInstagram />
 					</a>
@@ -55,7 +55,7 @@ export default function Topbar() {
 						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="hover:text-sky"
+						className="hover:text-tutti"
 					>
 						<FaTwitter />
 					</a>

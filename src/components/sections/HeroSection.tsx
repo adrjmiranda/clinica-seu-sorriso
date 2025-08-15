@@ -9,7 +9,7 @@ export default function HeroSection() {
 	return (
 		<header
 			id="home"
-			className="vertical-wrapper relative z-0 -mt-32 flex min-h-[728px] md:min-h-[962px]"
+			className="vertical-wrapper relative z-0 -mt-32 flex min-h-[768px] md:min-h-[962px]"
 		>
 			<picture className="absolute inset-0 z-0 h-full w-full">
 				<source

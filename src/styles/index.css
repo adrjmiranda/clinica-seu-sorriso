@@ -55,6 +55,6 @@
 	}
 
 	.btn {
-		@apply from-sky to-tutti w-fit rounded-sm bg-linear-to-r px-6 py-3 text-center text-sm font-medium text-white uppercase transition-all hover:brightness-110;
+		@apply from-sky to-tutti w-full rounded-sm bg-linear-to-r px-6 py-3 text-center text-sm font-medium text-white uppercase transition-all hover:brightness-110 sm:w-fit;
 	}
 }

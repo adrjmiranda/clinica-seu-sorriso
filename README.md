@@ -59,31 +59,31 @@ Aqui estão algumas capturas de tela das principais seções do projeto:
 
 ### 🏠 Home
 
-![Home](./screenshots/home.png)
+![Home](./public/screenshots/home.png)
 
 ### ⚙️ Services
 
-![Services](./screenshots/servicos.png)
+![Services](./public/screenshots/servicos.png)
 
 ### 👥 Our Team
 
-![Our Team](./screenshots/nosso-time.png)
+![Our Team](./public/screenshots/nosso-time.png)
 
 ### 📄 Sobre
 
-![Sobre](./screenshots/sobre.png)
+![Sobre](./public/screenshots/sobre.png)
 
 ### 📩 Contact
 
-![Contact](./screenshots/contato.png)
+![Contact](./public/screenshots/contato.png)
 
 ### ⭐ Departments
 
-![Departments](./screenshots/departamentos.png)
+![Departments](./public/screenshots/departamentos.png)
 
 ### 📰 Latest Posts
 
-![Latest Posts](./screenshots/ultimos-posts.png)
+![Latest Posts](./public/screenshots/ultimos-posts.png)
 
 ---
 

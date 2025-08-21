@@ -55,6 +55,38 @@ npm run deploy
 
 ## 🖼 Screenshots
 
+Aqui estão algumas capturas de tela das principais seções do projeto:
+
+### 🏠 Home
+
+![Home](./screenshots/home.png)
+
+### ⚙️ Services
+
+![Services](./screenshots/servicos.png)
+
+### 👥 Our Team
+
+![Our Team](./screenshots/nosso-time.png)
+
+### 📄 Sobre
+
+![Sobre](./screenshots/sobre.png)
+
+### 📩 Contact
+
+![Contact](./screenshots/contato.png)
+
+### ⭐ Departments
+
+![Departments](./screenshots/departamentos.png)
+
+### 📰 Latest Posts
+
+![Latest Posts](./screenshots/ultimos-posts.png)
+
+---
+
 ## 📌 Project Status
 
 ✅ Completed – The project is fully functional and deployed.
